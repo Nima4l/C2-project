@@ -4,18 +4,22 @@
 
 int main()
 {
-    int a[4];
+    //arrys 
+    int a[20];
     int z, j, i;
-    for (i = 0; i < 5; i++)
+    //get numbers from user
+    for (i = 0; i < 21; i++)
     {
         printf("Enrter %i:", i);
         scanf("%i", &a[i]);
     }
     printf("++++++++++++++++++++++++++\n");
-    for (j = 0; j < 5; j++)
+    //checked numbers for user
+    for (j = 0; j < 21; j++)
     {
         for (z = 2; z < a[j]; z++)
         {
+            //check to prime numbers
             if (a[j] % z == 0)
             {
                 printf("%i\n", a[j]);
