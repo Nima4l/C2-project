@@ -1,6 +1,5 @@
 # HomeWork C
 i make this repositories for my classmates to check my HomeWork
-#### Question:
-Write a program that takes 4 numbers from the user and prints them in all possible modes (so that they are not duplicates)
+Write a program that receives 20 numbers from the user and displays the number so that the first number is printed as -1
 #### Required libraries:
 - stdio.h
