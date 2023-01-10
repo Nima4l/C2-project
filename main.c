@@ -17,15 +17,17 @@ int main()
     //checked numbers for user
     for (j = 0; j < 21; j++)
     {
+        //check to prime numbers
         for (z = 2; z < a[j]; z++)
         {
-            //check to prime numbers
+            //if not prime print number
             if (a[j] % z == 0)
             {
                 printf("%i\n", a[j]);
                 break;
             }
         }
+        //if prime or 1 print -1
         if (a[j] == z || a[j] == 1)
         {
             printf("-1\n");
