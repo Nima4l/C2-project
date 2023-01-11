@@ -10,7 +10,7 @@ int main()
     //get numbers from user
     for (i = 0; i < 21; i++)
     {
-        printf("Enrter %i:", i);
+        printf("Enter %i:", i);
         scanf("%i", &a[i]);
     }
     printf("++++++++++++++++++++++++++\n");
